@@ -6,8 +6,8 @@ As a toy project to learn the Playstation 1 SDK, I've developed a clone of the [
 
 1. Install the [PysQ SDK](http://www.psxdev.net/downloads.html)
 2. Run PSPATH [RegEdit script](https://github.com/apiraino/psx_tapper/blob/master/tools/pspath_winxp.reg)
-3. git clone https://github.com/apiraino/psx_tapper tapper
-4. cd tapper
+3. `git clone https://github.com/apiraino/psx_tapper tapper`
+4. `cd tapper`
 5. (customize Makefile with correct paths) and `make`
 
 ## Requirements
@@ -30,7 +30,7 @@ It's a 1983 Midway arcade about a barman trying to serve booze to as many custom
 
 This reimplementation is completely from scratch concerning code, while original graphical assets have been ripped off thanks to M.A.M.E. (`F4` key in game).
 
-A sprite sheet is an image file where any in-game image asset is stored at precise coordinates. You can find the first two original sprite sheets [here](https://octodex.github.com/blob/master/pics/screengrabs) (files `sheet0.bmp` and `sprite1.bmp`).
+A sprite sheet is an image file where any in-game image asset is stored at precise coordinates. You can find the first two original sprite sheets [here](https://github.com/apiraino/psx_tapper/blob/master/pics/screengrabs) (files `sheet0.bmp` and `sprite1.bmp`).
 
 See [Workflow for graphics](#workflow-for-graphics) for some tips about graphics.
 
