@@ -1,0 +1,5 @@
+- add animation when the customer reaches the barman
+- audio, beeps, etc.
+- memory card management
+- high scores
+- testing on real hardware

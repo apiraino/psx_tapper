@@ -1,0 +1,35 @@
+:Base tim3help.hlp>default
+:Title TIM Tool 3 help
+1 Building TIMtool projects
+2 Starting a new project=startproj
+2 Opening an existing project=openproj
+2 Saving the current project=saveproj
+2 Importing and converting Windows BMP, JPEG, TIFF and PCX files=import
+2 Adding TIMs to the project=addtims
+2 Removing TIMs from the project=removetims
+2 Saving modified TIM(s)=savemodtims
+2 Creatiing MAP files=creatingmaps
+2 Creating Alias VRM Map Files=creatingvrm
+2 Saving areas of the Frame Buffer=savingareas
+1 Manipulating TIMs and CLUTs in the frame buffer
+2 Selecting TIMs=selectingtims
+2 Selecting CLUTs=selectingcluts
+2 Selecting Areas=selareas
+2 Modifying the STP bits of 4-bit and 8-bit TIM images=clutoptions
+2 Modifying the STP bits of 16-bit TIM images=clutoptions16
+2 Moving TIMs and CLUTs in the Frame Buffer=movingtims
+2 Zooming in and out of the Frame Buffer view=zoom
+2 Snapping Options=snapping
+2 Auto-sorting CLUTs
+3 Auto-sorting 4-bit CLUTs into a selected area=autosort4bit
+3 Auto-sorting 8-bit CLUTs into a selected area=autosort8bit
+3 Auto-sorting selected CLUTs into a selected area=autosortsel
+1 Frame Buffer Options
+2 Setting the graphics mode=setgraphmode
+2 Viewing the frame buffers side-by-side=viewsidebyside
+2 Viewing the frame buffer full-screen=viewfullscreen
+2 Viewing the free space in the frame buffer=viewfreespace
+2 Viewing the overlaps in the frame buffer=viewoverlaps
+2 Viewing the current image(s) list=viewcurrimages
+1 Other features
+2 Customising settings=customise

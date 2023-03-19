@@ -1,0 +1,95 @@
+Release notes for TIMTool v3.0
+
+Bug fixes:
+
+- auto-sorting cluts shouldn't complain that there's not enough room when there is
+- maps should save properly now - the bit of code that did it has been rewritten.
+- problems with things moving wrong when dragging them about can now be solved by
+  zooming in on the specific area, previously with the frame buffer shown at only 50%
+  of the actual size things jumped to the next pixel when being dragged.
+
+Changes from Beta versions:
+
+- faster screen update when moving - nearly as fast as the old version of TIMTool
+  now!
+- options for screen resolution removed as it's now permanently in high res. mode
+  (this provides a speed-up when drawing the texture page preview window!)
+- a few other minor bugs fixed
+- help file has been updated
+
+ 
+New features:
+
+- Slight changes to the front-end to include new features
+
+- Resizable Window
+
+- Zoom in and out:
+  - either use the zoom buttons
+  - or alt-left click to zoom in and alt-right click to zoom out
+  - the display can also be stretched on the X-Axis up to 4:1
+
+- Preferences menu:
+  - Grid options
+    - The first set of settings is the general grid setting, this is the
+      grid used when moving groups of objects around
+    - Below this are individual settings for different types of textures
+      (4,8,16,24bit) so that when moving an individual object it has a
+      grid dependant on the type of texture.
+      This can be turned on and off using the checkbox
+
+  - Area Selection Granularity
+    This is the step size used when selecting areas, previously it was 16 pixels on
+    the X axis and 4 on the Y axis, or 4x2 with the accuracy button checked, now it
+    can be set to whatever you want.
+
+  The link buttons links the X and Y settings for the particular option
+
+  - Option to turn on/off double height clut drawing when zoomed out
+
+- Snapping options:
+  - Objects can now to snap to any combination of Images, Edges, CLUTs or the Grid 
+    (see Preferences above)
+
+- Current image(s) window:
+  This shows information about the image(s) currently under the pointer on the frame
+  buffer image display.
+  Individual images are shown in the 'Current Image' part of the 'Frame Buffer Image
+  Options' box, but if there's an overlap then '-OVERLAP-' is shown, and the details
+  of the the overlap can be found in the overlap window
+
+- File list
+  This has been changed and now multiple files can be selected and moved around, this
+  window also shows more information about each TIM in the project
+
+- Multiple selections
+  Multiple TIMs of CLUTs can be selected in a variety of ways:
+  - Using the File List
+    Select using CTRL+Left mouse button to multiple select things here
+  - On the Frame Buffer image display
+    Select using CTRL+Left mouse button.
+  - the 'Select None' and 'Select All' buttons
+  - Highlighting an area using SHIFT+Left mouse drag and then going to the 'TIM Options'
+    menu and either selecting 'Select TIMs in selected area' or 'Select CLUTs in
+    selected area'
+
+- Area selections
+  These are now all done using SHIFT+Left mouse drag, as CTRL is used to multiple select
+  things
+
+- Autosorting selected cluts into an area
+  Fairly self explanatory this...select the cluts you want and then shift-drag an area 
+  and select the option and if there's enough space then they'll fit in.
+  If the area isn't big enough for 8-bit cluts then a message will appear with the choice
+  of either aborting or placing the 8-bit cluts in ignoring the width 
+
+- Normal/Overlap/Free space views
+  These can now be selected by clicking the radio buttons in the 'Frame Buffer Image
+  Options' box.  The old options to view them full screen still exist, though it's probably
+  easier now to zoom into whatever you want to view.
+
+  Objects can be moved around when in overlap or free space mode which makes it easier
+  to organise overlapping images.  NOTE: this is only on the frame buffer image view and not
+  on the separate window that can be opened.
+
+
